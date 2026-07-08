@@ -69,7 +69,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(List.of(
-                "http://localhost:5500",
+                "http://localhost:5500","https://fullstack-java-backend-2.onrender.com",
                 "http://127.0.0.1:5500"));
 
         configuration.setAllowedMethods(List.of(
